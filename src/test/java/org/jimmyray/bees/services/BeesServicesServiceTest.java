@@ -44,7 +44,6 @@ public class BeesServicesServiceTest {
 						Constants.CREDS_BUNDLE, Constants.BEES_SECRET));
 	}
 
-	/*
 	@Test
 	public void testGetServicesInfo() throws Exception {
 		assertNotNull("BeesServicesService was null.", this.beesServicesService);
@@ -62,7 +61,7 @@ public class BeesServicesServiceTest {
 			Map<String, Object> properties = BeanUtils.describe(service);
 			System.out.println(properties);
 		}
-	}*/
+	}
 
 	@Test
 	public void testGetServicesSubscriptionList() throws Exception {

@@ -8,12 +8,13 @@
 	<name>bees-sdk-ui</name>
 
 	<properties>
+		<test>org.jimmyray.ADummyTest</test>
 		<scm.url>https://svn-jimmyray.forge.cloudbees.com/CloudBeesRepo1</scm.url>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring.version>4.0.1.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<jersey.version>1.17.1</jersey.version>
-		<bees.sdk.version>1.5.6</bees.sdk.version>
+		<bees.sdk.version>1.5.7</bees.sdk.version>
 	</properties>
 
 	<dependencies>

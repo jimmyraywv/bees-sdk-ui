@@ -23,6 +23,6 @@ public class BeesClientFactory {
 		}
 
 		return new BeesClient(creds.getApiUrl(), creds.getApiKey(),
-				creds.getSecret(),"json","1.0");
+				creds.getSecret(),"xml","1.0");
 	}
 }
